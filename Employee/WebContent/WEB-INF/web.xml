@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+<servlet-name>first</servlet-name>
+<servlet-class>com.employee.AddEmployee</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name> first</servlet-name>
+<url-pattern>/addEmployee</url-pattern>
+</servlet-mapping>
+
+</web-app>
