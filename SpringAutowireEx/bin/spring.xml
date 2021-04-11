@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+ <beans>
+ <bean id="rahul" class="com.ex.Student" autowire="byType">
+ <property name="studentId" value="1023"></property>
+ <property name="studentName" value="rahul Kumar"></property>
+ </bean>
+ <bean id="jnit" class="com.ex.Course">
+ <property name="cid" value="202"></property>
+ <property name="courseName" value="java"></property>
+ <property name="coursePrice" value="10000"></property>
+ 
+ </bean>
+ </beans>

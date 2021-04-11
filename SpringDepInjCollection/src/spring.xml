@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+ <beans>
+ <bean id="rahul" class="com.ex.Student">
+ <property name="studentId" value="1020"/>
+<property name="studentName" value="rahul kumar"/>
+<property name="courses">
+<map>
+<entry key="101">
+<value>Oracle</value>
+</entry>
+
+<entry key="102">
+<value>Java</value>
+</entry>
+
+<entry key="103">
+<value>AWS</value>
+</entry>
+
+<entry key="104">
+<value>Python</value>
+</entry>
+
+</map>
+
+</property>
+ </bean>
+ 
+ </beans>
