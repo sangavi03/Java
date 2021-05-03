@@ -6,7 +6,7 @@
 
 <bean id="savings" class="com.ex.Account"></bean>
 <bean id="auth" class="com.ex.AuthenticationAspect"></bean>
-<bean id="Logg" class="com.ex.LoggingAspect"></bean>	
+<bean id="ard" class="com.ex.AroundAspect"></bean>	
 	
 	<bean id="pfb" class="org.springframework.aop.framework.ProxyFactoryBean">
 	<property name="proxyInterfaces" value="com.ex.HdfcBank">
@@ -14,7 +14,7 @@
 	<property name="interceptorNames">
 	<list>
 	<value>auth</value>
-	<value>logg</value>
+	<value>ard</value>
 	</list>
 	</property>
 	<property name="target">
